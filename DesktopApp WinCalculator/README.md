@@ -25,7 +25,7 @@ The execution open the console with the next message:
 
 ### Execution Result
 
-[![Reporte](/screenshots/resultexecution.png)
+[![Reporte](/DesktopApp WinCalculator/screenshots/resultexecution.png)
 
 
 > This create sceneries more complex that have a high flow
