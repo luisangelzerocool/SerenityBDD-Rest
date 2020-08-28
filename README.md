@@ -1,3 +1,3 @@
 # Serenity BDD
 
-Contienen los proyectos desarrollados con SerenityBDD
+Contienen los proyectos de automatización desarrollados con SerenityBDD
