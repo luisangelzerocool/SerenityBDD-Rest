@@ -13,7 +13,7 @@ Desktop automation of windows calculator, using screenplay and serenityBDD
 - You going to the route where installed the WinAppDriver and execute *WinAppDriver.exe* for default the route is: `C:\Program Files (x86)\Windows Application Driver`
 
 The execution open the console with the next message:
-![winappdriver](/screenshots/WinAppDriver.png)
+![winappdriver](/screenshots/WinAppDriver.jpg)
 
 > Now you can execute the automation
 
@@ -25,7 +25,7 @@ The execution open the console with the next message:
 
 ### Execution Result
 
-![Reporte](/screenshots/resultexecution.png)
+![Reporte](/screenshots/resultexecution.jpg)
 
 > This create sceneries more complex that have a high flow
 
