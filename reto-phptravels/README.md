@@ -27,20 +27,20 @@ En la carpeta `Target`
 
 Ejecución de Build con: `gradle wrapper`
 
-![resultado-gradlewrapper](/docs/resultado-gradlewrapper.png)
+![resultado-gradlewrapper](docs/resultado-gradlewrapper.png)
 
 
 Ejecución de Pruebas con: `gradlew.bat  clean test --tests *RunnerTags* aggregate --info`
 
-![resultado-gradleexecution](/docs/resultado-gradleexecution.png)
+![resultado-gradleexecution](docs/resultado-gradleexecution.png)
 
 Resultado de ejecución de casos de pruebas por consola:
 
-![resultado-consola](/docs/resultado-consola.png)
+![resultado-consola](docs/resultado-consola.png)
 
 Reporte de Ejecución:
 
-![resultado-reporte](/docs/resultado-reporte.png)
+![resultado-reporte](docs/resultado-reporte.png)
 
 
 ## Video de Ejecución
@@ -55,13 +55,13 @@ Reporte de Ejecución:
 - Construcción del Proyecto de Automatización con Gradle
 
 Tareas:
-![azure-tareas](/docs/azure-tareas.png)
+![azure-tareas](docs/azure-tareas.png)
 
 Ejecuciones Automaticas:
-![azure-ejecuciones](/docs/azure-ejecuciones.png)
+![azure-ejecuciones](docs/azure-ejecuciones.png)
 
 Sonar:
-![sonar](/docs/sonar.png)
+![sonar](docs/sonar.png)
 
 
 
@@ -71,15 +71,15 @@ Sonar:
 para ver el reporte final, ingresa aquí: https://s3.amazonaws.com/target.serenity.reto/target/site/serenity/index.html
 
 Tareas:
-![azure-cdtareas](/docs/azure-cdtareas.png)
+![azure-cdtareas](docs/azure-cdtareas.png)
 
 Ejecuciones Automaticas:
-![azure-cdejecuciones](/docs/azure-cdejecuciones.png)
+![azure-cdejecuciones](docs/azure-cdejecuciones.png)
 
 AWS:
-![aws](/docs/aws.png)
+![aws](docs/aws.png)
 
 Reporte:
-![reporte](/docs/reporte.png)
+![reporte](docs/reporte.png)
 
 
