@@ -27,7 +27,7 @@ En la carpeta `Target`
 
 Ejecución de Build con: `gradle wrapper`
 
-![resultado-gradlewrapper](reto-phptravels/docs/resultado-gradlewrapper.png)
+![resultado-gradlewrapper](/docs/resultado-gradlewrapper.png)
 
 
 Ejecución de Pruebas con: `gradlew.bat  clean test --tests *RunnerTags* aggregate --info`
