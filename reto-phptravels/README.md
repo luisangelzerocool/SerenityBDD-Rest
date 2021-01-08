@@ -20,7 +20,7 @@ En la carpeta `Target`
 - Se implementa una clase Constantes.java en la capa `Util`
 - No se crean DataDriven ya que para el ejercicio no se requiere de una gran volumetría de datos
 - Se implementan 2 escenarios en una única caracteristica bajo el modelo de `Gherkin`
-- Se usa la `Sentencia Background` en el .feature como buena práctica para este Reto, ya que los 2 escenarios planteados cumplen la misma pre-condición
+- Se usa la Sentencia `Background` en el .feature como buena práctica para este Reto, ya que los 2 escenarios planteados cumplen la misma pre-condición
 
 
 ## Resultado de Ejecución
