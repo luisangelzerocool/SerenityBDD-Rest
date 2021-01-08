@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="dce342455369a4b3a28630f512793c7062d03f461d69a89d44186f7374189ce3.html">Creaci&oacute;n De Categor&iacute;a Y Post</a></span>
+                > <span class="truncate-60"><a
+                    href="6ea1534b8ef8b18fe3750d0ee9952aa4e3468e69077ec6e495c1ad2b3454ee7f.html">crear post </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-01-2021 09:28</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Creación De Categoría Y Post </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Yo como usuario del sistema quiero crear una categoría para posteriormente
+hacer un nuevo post con la categoría adicionada anteriormente
+                                </div>
+                            </div>
+
+                            <div class="requirementNarrative">Background: crear categoria y post
+                                    <p></p>
+                            </div>
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="2f59df5a4feccefff541f3a3f0f19ff69082c3d3d406875b259415f1be4b0b57.html">Runnertags
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">crear post
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="40e405fd2bb844727ef9cfa31009a6b421a736226a33b3a0d2fbe79234be8c5d.png" title="Dado que Luis ingresa su usuario admin@phptravels.com y contrase&ntilde;a demoadmin" width="1920"/>
+                <img src="be4028569c40d5a232be246645591e8f41ff62ce972a93e50038e3d4a4d8499f.png" title="Luis opens the Php travels home page" width="1920"/>
+                <img src="a687eb50d77fda0708ebf69643dcedb22f66d5f5e31ec4b9ac50963f31a64935.png" title="Luis enters 'admin@phptravels.com' into campo de email" width="1920"/>
+                <img src="50be2b8bdaad11a00865dcd4668acebe103e221b1792018ba31447e50235f9c4.png" title="Luis enters 'demoadmin' into campo de password" width="1920"/>
+                <img src="aa6590f31e5fb6d11134123e14e5627f3c98b103b8f9cfcabae27bce4c025d19.png" title="Luis clicks on boton de login" width="1920"/>
+                <img src="af2750d62bebd882257ad90b099a156bf52202fb2f5a8038566d91b6e97b11dd.png" title="Dado que Luis ingresa al men&uacute; Blog - Posts" width="1920"/>
+                <img src="a66d492c738d096e95d787502c4329cd7dda9c0428cdb60f31ebb4e7d95f204a.png" title="Luis clicks on menu de blog" width="1920"/>
+                <img src="9888f73642464aa0c1decc99ce976de5a53ffa55dac45f3652ada7571313aa45.png" title="Luis clicks on sub menu de post" width="1920"/>
+                <img src="1add2a92c309115aaa8cd079c1a51de7105b3bf17053ca40780d37c004bb8432.png" title="Cuando ingresa los datos del un nuevo post
+| status | category | post_title | permalink | body | key_words | desciption |
+| Enable | pasi&oacute;n | post pasi&oacute;n | .com | texto1 | pasi&oacute;nKey | descripci&oacute;n |" width="1920"/>
+                <img src="5f0d9053627ebccf84e1e570b93d4a29fe83872c6148c4394cc965ace19ccf4a.png" title="Luis clicks on boton de agregar" width="1920"/>
+                <img src="6b7d0d84bf8174419ab0b9102721eb496c11c0d56288266d8a548590ecd24a15.png" title="Luis select pasi&oacute;n on campo categoria" width="1920"/>
+                <img src="6b7d0d84bf8174419ab0b9102721eb496c11c0d56288266d8a548590ecd24a15.png" title="Luis select Enable on campo de estado" width="1920"/>
+                <img src="78b5af5d4dd1566caa5e7bce6551ca1c9cbe79bc29e81d2f6b34e5de0bf51077.png" title="Luis enters 'post pasi&oacute;n' into campo de titulo de post" width="1920"/>
+                <img src="a95222c6072619f783f6baa4a386c4b5286e7ef73fc86c6fe4549c419366a1fe.png" title="Then boton source body del post should be an element that is visible" width="1920"/>
+                <img src="2d9fcc2577b102633bed59821750898ac5f61586d0dc8d8bf586b7421746a088.png" title="Luis clicks on boton source body del post" width="1920"/>
+                <img src="c86f58df048565e40eccb6bb148b3356bfb0bf42215889740f769f5270b939ae.png" title="Luis enters 'texto1' into campo del cuerpo del post" width="1920"/>
+                <img src="02e27d18fa5a361c33bf648050134004bdcecfc6e6eb49c5cd81cb93439024e9.png" title="Luis enters 'pasi&oacute;nKey' into campo de palabras claves para SEO" width="1920"/>
+                <img src="9f97545806404f60390caf913794f52bc9c5aa6bb4f0fb1244d0842856a9f1aa.png" title="Luis enters 'descripci&oacute;n' into campo de descripci&oacute;n para SEO" width="1920"/>
+                <img src="1add2a92c309115aaa8cd079c1a51de7105b3bf17053ca40780d37c004bb8432.png" title="Luis clicks on boton de submit" width="1920"/>
+                <img src="cdc551e88e400e09e995518ea1f4cb958465b37032ed9c37548f4896381463df.png" title="Entonces deber&iacute;a ver el nuevo post llamado post pasi&oacute;n" width="1920"/>
+                <img src="1add2a92c309115aaa8cd079c1a51de7105b3bf17053ca40780d37c004bb8432.png" title="Then el post: <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
