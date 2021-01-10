@@ -1,7 +1,6 @@
 # Serenity BDD
 
-Contienen los proyectos de automatización desarrollados con SerenityBDD
-
+Contains the automation projects developed with SerenityBDD, Java, Cucumber (Gherkin), ScreenPlay
 
 ## Utilities for Working with SerenityBDD
 
