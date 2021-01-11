@@ -6,13 +6,13 @@ Requisitos:
 - JDK 
 - Cucumber
 
+Copiar `docs/chromedriver.exe` dentro de `src/test/resources/driver/`
+
 Construir el Proyecto con el comando: `gradle wrapper` 
 
 ## Ejecución
 Usando el comando: `gradlew.bat  clean test --tests *RunnerTags* aggregate --info`
 
-## Reporte de Evidencias
-En la carpeta `Target`
 
 ## Desarrollo
 - Se implementan en la capa `Models` modelos DTO para manejar los datos de `Categorías` y `Post`.

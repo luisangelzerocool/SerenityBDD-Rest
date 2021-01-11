@@ -39,3 +39,20 @@ For middle of command:
 ```
 gradle -Dtest.single=RunnerTags test aggregate
 ```
+
+### - Actions
+
+Click
+```
+actor.attemptsTo(Click.on(PhpTravelsBlogPostPage.BOTON_ADD));
+```
+
+Enter Text
+```
+actor.attemptsTo(Enter.theValue(post.get(0).getPost_title()).into(PhpTravelsBlogPostPage.CAMPO_POST_TITLE));
+```
+
+Select Value
+````
+actor.attemptsTo(SelectFromOptions.byVisibleText(post.get(0).getCategory()).from(PhpTravelsBlogPostPage.CAMPO_CATEGORY));
+```
