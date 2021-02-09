@@ -1,5 +1,43 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+.gradle/
+*.iml
+*.iws
+*.editorconfig
+.settings
+
+# Gradle
+log/
+target/
+hooks/pre-push
+
+# Java
+build/
+out/
+history/
+out/
+bin/
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Log file
+*.log
+.scannerwork/report-task.txt
+.scannerwork/.sonar_lock
+.scannerwork/
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
 .gradle
-/build/
+build/
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -9,13 +47,3 @@ gradle-app.setting
 
 # Cache of project
 .gradletasknamecache
-
-# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
-# gradle/wrapper/gradle-wrapper.properties
-
-#Intellij
-.idea
-/history/
-/out/
-/bin/
-.settings
