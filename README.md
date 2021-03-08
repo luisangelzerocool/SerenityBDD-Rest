@@ -53,7 +53,7 @@ actor.attemptsTo(Enter.theValue(post.get(0).getPost_title()).into(PhpTravelsBlog
 ```
 
 Select Value
-````
+```
 actor.attemptsTo(SelectFromOptions.byVisibleText(post.get(0).getCategory()).from(PhpTravelsBlogPostPage.CAMPO_CATEGORY));
 ```
 
