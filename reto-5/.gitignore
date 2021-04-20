@@ -44,3 +44,9 @@ gradle-app.setting
 # Cache of project
 .gradletasknamecache
 
+
+# Other files
+gradlew
+gradlew.bat
+gradle/
+
